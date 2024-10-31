@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    padding: 23px;
+    background-color: skyblue;
+    color: white;
+}
+
+input {
+    width: 60px;
+    background-color: green;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.calculadora {
+width: 300px;
+height: 420px;
+margin-right: auto;
+margin-left: auto;
+border-radius: 5px;
+border: 3px solid skyblue;
+padding: 20px;
+}
+
+#Limpar {
+    width: 94.5%;
+    background-color: red;
+}
+
+#display {
+    width: 286.5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+}
