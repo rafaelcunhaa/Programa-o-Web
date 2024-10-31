@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados para Confirmação</title>
+</head>
+<body>
+<div>
+    <h1> Dados do endereço fornecido pelo usuario</h1>
+    <label> Rua: </label> <label id="rua"> </label><br>
+    <label> Cidade: </label> <label id="cidade"> </label><br>
+    <label> Estado: </label> <label id="estado"> </label><br>
+    <label> CEP: </label> <label id="cep"> </label><br>
+
+    <br>
+
+    <h1>Produtos selecionados pelo usuario</h1>
+    <label>Produtos 1: </label> <label id="havaianas"> </label><br>
+    <label>Quantidade: </label> <label id="havaianas_qtd"> </label><br>
+    <label>Preço: </label> <label id="havaianas_preco"> </label><br>
+
+    <br>
+
+    <label>Produtos 2: </label> <label id="alpargatas"> </label><br>
+    <label>Quantidade: </label> <label id="alpargatas_qtd"> </label><br>
+    <label>Preço: </label> <label id="alpargatas_preco"> </label><br>
+
+
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="./scripts.js"></script>
+<script>
+    carregarEndereco();
+    carregarProdutos();
+</script>
+</html>
